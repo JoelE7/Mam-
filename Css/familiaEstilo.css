@@ -1,0 +1,62 @@
+                    body {
+                        background: radial-gradient(circle, #f09, #fbf);
+                        font-family: 'Times New Roman', Times, serif;
+                    }
+                    
+                    .saludo {
+                        text-align: center;
+                    }
+                    
+                    .familia {
+                        width: 400px !important;
+                        height: 500px !important;
+                    }
+                    
+                    @media (max-width:575px) {
+                        .saludo {
+                            font-size: 2rem !important;
+                            font-weight: 500 !important;
+                            line-height: 1.2 !important;
+                        }
+                        .carta {
+                            font-size: 1.1rem;
+                        }
+                        .saludo {
+                            text-align: justify;
+                        }
+                    }
+                    
+                    @media (max-width:767px) {
+                        .saludo {
+                            font-size: 2rem !important;
+                            font-weight: 500 !important;
+                            line-height: 1.2 !important;
+                        }
+                        .carta {
+                            font-size: 1.1rem;
+                        }
+                    }
+                    
+                    @media (max-width:1280px) {
+                        .espe {
+                            margin: 0px !important;
+                        }
+                        .saludo {
+                            text-align: start;
+                        }
+                    }
+                    
+                    @media (max-width:1199px) {
+                        .espe {
+                            margin-left: 17px !important;
+                        }
+                        .saludo {
+                            font-size: 5rem;
+                        }
+                    }
+                    
+                    @media (max-width:767px) {
+                        .espe {
+                            margin: 0px !important;
+                        }
+                    }
